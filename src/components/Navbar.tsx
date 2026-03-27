@@ -25,7 +25,7 @@ export default function Navbar() {
           <Menu className="w-6 h-6" />
         </button>
 
-        <div className="absolute left-1/2 -translate-x-1/2 flex items-center justify-center">
+        <div className="absolute left-1/2 -translate-x-1/2 hidden md:flex items-center justify-center">
           <Link href="/" className="hover:opacity-80 transition-opacity flex flex-col items-center">
             {/* Chrome 3-point Spiked Crown Logo */}
             <svg

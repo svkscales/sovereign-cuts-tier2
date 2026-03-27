@@ -114,7 +114,7 @@ export default function HeroAnimation() {
           ref={canvasRef}
           width={1920}
           height={1080}
-          className="absolute inset-0 w-full h-full object-cover z-10"
+          className="absolute inset-0 w-full h-full object-cover max-md:object-contain max-md:bg-black z-10"
         />
 
         {/* CUTS BELOW */}
